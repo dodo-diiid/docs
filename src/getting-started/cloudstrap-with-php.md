@@ -4,14 +4,14 @@ layout: document
 title:  "PHP приложения в StartАpp"
 date:   2013-11-25 16:58:04
 header_title:  '> app create &lt;app&gt; with PHP'
-lead: "За PHP любознайковци! Дисекция на PHP приложенията в <strong>StartApp.bg</strong> Сloud"
+lead: "За PHP любознайковци! Дисекция на PHP приложенията в <strong>cloudstrap.io</strong> Сloud"
 slug: startapp-with-php
 keywords: "хостинг, php хостинг, python хостинг, ruby хостинг, nodejs хостинг"
 description: ""
 noToc: true
 ---
 
-{% page_header id="quickstart-php" title="StartApp.bg с PHP" %}
+{% page_header id="quickstart-php" title="CloudStrap.io с PHP" %}
 
 {% include customer-requirements.html %}
 
@@ -61,9 +61,9 @@ Your application 'myphpapp' is now available.
 Run 'app show-app myphpapp' for more details about your app.
 {% endhighlight %}
 
-Последните няколко реда казват, че твоето приложение е създадено в StartApp и клонирано на твоя компютър.
+Последните няколко реда казват, че твоето приложение е създадено в CloudStrap и клонирано на твоя компютър.
 
-{% note info, Всяко приложение в StartApp притежава: %}
+{% note info, Всяко приложение в CloudStrap притежава: %}
 
 Собствен домейн адрес (с включен SSL сертификат).
 
@@ -663,7 +663,7 @@ $database = $mongo->$db_name;
 
 {% section id="create-codeigniter-app" title="Инсталиране на Codeigniter" %}
 
-Благодарение на **StartApp Quickstarts** може да инсталираш Codeigniter това става с една команда:
+Благодарение на **CloudStrap Quickstarts** може да инсталираш Codeigniter това става с една команда:
 
     app create myciapp codeigniter
 

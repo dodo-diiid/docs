@@ -1,17 +1,17 @@
 ---
 layout: document
 
-title:  "NodeJS приложения в StartApp.bg NodeJS хостинг."
+title:  "NodeJS приложения в CloudStrap.io NodeJS хостинг"
 date:   2014-03-01 18:58:04
 header_title:  '> app create &lt;app&gt; with NodeJS'
-lead: "За любознателни JavaScript машини! Създаване на NodeJS приложения в <strong>StartApp</strong>  Сloud"
+lead: "За любознателни JavaScript машини! Създаване на NodeJS приложения в <strong>CloudStrap</strong>  Сloud"
 slug: startapp-with-nodejs
 keywords: "хостинг, nodejs хостинг, nodejs mongodb, nodejs mysql, nodejs framework, nodejs приложения, nodejs"
 description: ""
 noToc: true
 ---
 
-{% page_header id="quickstart" title="StartApp.bg с NodeJS" %}
+{% page_header id="quickstart" title="CloudStrap.io с NodeJS" %}
 
 {% include customer-requirements.html %}
 
@@ -60,9 +60,9 @@ Your application 'mynodejsapp' is now available.
 Run 'app show-app mynodejsapp' for more details about your app.
 {% endhighlight %}
 
-Последните няколко реда казват, че твоето приложение е създадено в StartApp и клонирано на твоя компютър.
+Последните няколко реда казват, че твоето приложение е създадено в CloudStrap и клонирано на твоя компютър.
 
-{% note info, Всяко приложение в StartApp притежава: %}
+{% note info, Всяко приложение в CloudStrap притежава: %}
 
 Собствен домейн адрес (с включен SSL сертификат).
 
@@ -137,7 +137,7 @@ Git хранилище
         <td>
           server.js
         </td>
-        <td>Това е файлът, чрез който StartApp ще стартира твоето приложение.</td>
+        <td>Това е файлът, чрез който CloudStrap ще стартира твоето приложение.</td>
       </tr>
 
       <tr>
@@ -152,7 +152,7 @@ Git хранилище
   </div>
 
 {% note warning, Важно! %}
-По подразбиране, StartApp стартира твоето приложение, чрез файл с име <code>server.js</code>. Може да укажеш алтернативен стартиращ файл, чрез промяна на <code>main</code> и <code>scripts.start</code> секциите в твоя <code>package.json</code> файл.
+По подразбиране, CloudStrap стартира твоето приложение, чрез файл с име <code>server.js</code>. Може да укажеш алтернативен стартиращ файл, чрез промяна на <code>main</code> и <code>scripts.start</code> секциите в твоя <code>package.json</code> файл.
 Желателно е да направиш следната малка проверка, за да тестваш за наличните системни променливи, които обикновено се използват от nodejs приложението
 
     var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
@@ -162,7 +162,7 @@ Git хранилище
     console.log("Listening on " + server_ip_address + ", server_port " + port)
     });
 
-Горният код задава стойности по подразбиране, които ще позволят на приложението да работи в StartApp и на твоя компютър
+Горният код задава стойности по подразбиране, които ще позволят на приложението да работи в CloudStrap и на твоя компютър
 
 {% endnote %}
 {% endsection %}
@@ -188,14 +188,14 @@ Git хранилище
         <td>
           OPENSHIFT_NODEJS_IP
         </td>
-        <td>Вътрешния IP адрес на NodeJS приложението. Използва се от StartApp.</td>
+        <td>Вътрешния IP адрес на NodeJS приложението. Използва се от CloudStrap.</td>
       </tr>
 
       <tr>
         <td>
           OPENSHIFT_NODEJS_PORT
         </td>
-        <td>Вътрешния порт на NodeJS приложението. Използва се от StartApp.</td>
+        <td>Вътрешния порт на NodeJS приложението. Използва се от CloudStrap.</td>
       </tr>
 
       <tr>
@@ -209,7 +209,7 @@ Git хранилище
         <td>
           NPM_CONFIG_PRODUCTION
         </td>
-        <td>Когато NPM_CONFIG_PRODUCTION е със стойност 'true', StartApp няма да инсталира 'devDependencies', </td>
+        <td>Когато NPM_CONFIG_PRODUCTION е със стойност 'true', CloudStrap няма да инсталира 'devDependencies', </td>
       </tr>
     </tbody>
   </table>

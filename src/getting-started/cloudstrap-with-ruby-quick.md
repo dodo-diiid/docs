@@ -4,8 +4,8 @@ layout: document
 title:  "> app --help | more"
 date:   2014-02-10 12:58:04
 header_title:  '> app create &lt;app&gt; with Ruby'
-lead: "За Ruby поети! Създаване на Ruby приложения в <strong>StartApp</strong> cloud за 5 минути"
-slug: startapp-with-ruby-quick
+lead: "За Ruby поети! Създаване на Ruby приложения в <strong>CloudStrap</strong> cloud за 5 минути"
+slug: cloudstrap-with-ruby-quick
 keywords: "хостинг, php хостинг, python хостинг, ruby хостинг, nodejs хостинг"
 description: ""
 noToc: true
@@ -14,11 +14,11 @@ noToc: true
 {% section id="fast-create-ruby-app" title="Бързи инструкции" %}
 
 {%assign install_url="/getting-started/app-client-tools-install.html" %}
-{%assign ruby_full="/getting-started/startapp-with-ruby.html" %}
+{%assign ruby_full="/getting-started/cloudstrap-with-ruby.html" %}
 
 За да работят примерите по-долу ти трябва:
 
-  1. Поискай покана на [http://startapp.bg](http://startapp.bg)
+  1. Поискай покана на [http://www.cloudstrap.io](http://www.cloudstrap.io)
   2. Ruby за [Windows]({{ install_url }}#iinstall-ruby-windows) | [Mac OS]({{ install_url }}#install-ruby-macos) | [Linux]({{ install_url }}#install-git-ruby-linux)
   3. Git за: [Windows]({{ install_url }}#install-git-windows) | [Mac OS]({{ install_url }}#install-git-macos) | [Linux]({{ install_url }}#install-git-linux)
   4. Startapp Client Tools за: [Windows]({{ install_url }}#install-app-windows) | [Mac OS]({{ install_url }}#install-app-macos) | [Linux]({{ install_url }}#install-app-linux)

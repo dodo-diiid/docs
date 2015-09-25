@@ -1,11 +1,11 @@
 ---
 layout: document
 
-title:  "Python приложения в StartApp.bg Python хостинг."
+title:  "Python приложения в CloudStrap.io Python хостинг."
 date:   2014-02-10 12:58:04
 header_title:  '> app create &lt;app&gt; with Python'
-lead: "За Python манияци! Създаване на Python приложения в <strong>StartApp</strong> cloud за 5 минути"
-slug: startapp-with-python-quick
+lead: "За Python манияци! Създаване на Python приложения в <strong>CloudStrap</strong> cloud за 5 минути"
+slug: cloudstrap-with-python-quick
 keywords: "хостинг, php хостинг, python хостинг, ruby хостинг, nodejs хостинг"
 description: ""
 noToc: true
@@ -14,14 +14,14 @@ noToc: true
 {% section id="fast-create-python-app" title="Бързи инструкции" %}
 
 {%assign install_url="/getting-started/app-client-tools-install.html" %}
-{%assign python_full="/getting-started/startapp-with-python.html" %}
+{%assign python_full="/getting-started/cloudstrap-with-python.html" %}
 
 За да работят примерите по-долу ти трябва:
 
-1. Поискай покана на [http://startapp.bg](http://startapp.bg)
+1. Поискай покана на [http://www.cloudstrap.io](http://www.cloudstrap.io)
 2. Ruby за [Windows]({{ install_url }}#iinstall-ruby-windows) | [Mac OS]({{ install_url }}#install-ruby-macos) | [Linux]({{ install_url }}#install-git-ruby-linux)
 3. Git за: [Windows]({{ install_url }}#install-git-windows) | [Mac OS]({{ install_url }}#install-git-macos) | [Linux]({{ install_url }}#install-git-linux)
-4. StartApp Client Tools за: [Windows]({{ install_url }}#install-app-windows) | [Mac OS]({{ install_url }}#install-app-macos) | [Linux]({{ install_url }}#install-app-linux)
+4. CloudStrap Client Tools за: [Windows]({{ install_url }}#install-app-windows) | [Mac OS]({{ install_url }}#install-app-macos) | [Linux]({{ install_url }}#install-app-linux)
 
 ---
 
